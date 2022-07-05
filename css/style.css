@@ -1,0 +1,83 @@
+
+/* ================================
+         common css start
+   ================================ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    width: 1340px;
+    display: flex;
+    justify-content: center;
+}
+.flex-container{
+     display: flex;
+     justify-content: space-between;
+}
+
+.heading{
+    font-family: 'Poppins', sans-serif;
+}
+.pragraph{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* ================================
+         common css end
+   ================================ */
+
+/* ================================
+         header css start
+   ================================ */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .logo{
+    width: 300px;
+
+}
+.navbar .nav-iteam {
+
+}
+.navbar .nav-iteam ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.navbar .nav-iteam ul li a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    
+    
+}
+
+
+/* ================================
+         header css end
+   ================================ */
